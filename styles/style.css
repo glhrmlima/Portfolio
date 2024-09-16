@@ -229,7 +229,6 @@ footer {
         width: 100vw;
         margin: 0;
         padding: 0;
-        justify-content: center;
         align-items: center;
     }
 
@@ -288,6 +287,10 @@ footer {
     .conteudo {
         gap: 2%;
         margin-bottom: 2%;
+    }
+
+    .conteudo__texto__destaque {
+        margin-bottom: 5%;
     }
 
     .linkedin__logo {
