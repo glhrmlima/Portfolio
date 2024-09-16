@@ -106,6 +106,7 @@ main {
 
 .conteudo__texto__destaque {
     font-weight: bold;
+    line-height: 1.5rem;
 }
 
 .conteudo__texto__decoration {
@@ -118,7 +119,6 @@ main {
     justify-content: center;
     gap: 1rem;
     padding: 1rem;
-
 }
 
 .github__logo, .linkedin__logo {
@@ -299,6 +299,10 @@ footer {
 
     main {
         gap: 2%;
+    }
+
+    .main__imagem {
+        width: 100%;
     }
 
     .conteudo {
