@@ -114,12 +114,22 @@ main {
 
 .conteudo__botoes {
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 1rem;
     padding: 1rem;
+
+}
+
+.github__logo, .linkedin__logo {
+    display: inline-block;
+    width: 1.5rem;
 }
 
 .conteudo__botao {
     display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 1rem 3rem;
     gap: 1rem;
     font-family: "Roboto Mono", monospace;
@@ -128,6 +138,7 @@ main {
     border: 2px solid var(--cor-secundaria);
     color: #669BBC;
     border-radius: 1.3ch;
+    text-decoration: none;
 }
 
 .conteudo__botao:hover {
@@ -205,14 +216,6 @@ footer {
         justify-content: center;
     }
 
-    .github__logo {
-        transform: scale(1.5);
-    }
-
-    .linkedin__logo {
-        transform: scale(1.5);
-    }
-
     .main__imagem {
         width: 60%;
         align-self: center;
@@ -224,7 +227,6 @@ footer {
 }
 
 @media (max-width: 800px) {
-
     html, body {
         width: 100vw;
         margin: 0;
@@ -291,6 +293,10 @@ footer {
         justify-content: space-evenly;
     }
 
+    .menu__item:hover {
+        transition: 1s;
+    }
+
     main {
         gap: 2%;
     }
@@ -304,8 +310,9 @@ footer {
         margin-bottom: 5%;
     }
 
-    .linkedin__logo {
-        size: 1rem;
+    .conteudo__botao {
+        padding: 5% 0;
+        border-radius: 1.5ch;
     }
 
     footer {
