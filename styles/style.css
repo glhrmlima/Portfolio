@@ -283,9 +283,12 @@ footer {
 }
 
 @media (max-width: 425px) {
+    html, body {
+        width: 100%;
+    }
+
     main {
         gap: 2%;
-        background-color: #FDB23A;
     }
 
     .conteudo {
