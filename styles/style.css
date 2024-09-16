@@ -116,12 +116,12 @@ main {
 .conteudo__botoes {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     gap: 1rem;
     padding: 1rem;
 }
 
-.github__logo, .linkedin__logo {
+.botao__logo {
     display: inline-block;
     width: 1.5rem;
 }
