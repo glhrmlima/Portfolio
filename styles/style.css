@@ -323,4 +323,8 @@ footer {
         width: 100%;
     }
 
+    .footer__texto {
+        font-size: .75rem;
+    }
+
 }
