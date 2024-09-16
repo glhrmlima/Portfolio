@@ -323,6 +323,10 @@ footer {
         width: 100%;
     }
 
+    .footer__conteudo {
+        line-height: 1rem;
+    }
+
     .footer__texto {
         font-size: .75rem;
     }
